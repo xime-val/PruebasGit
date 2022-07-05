@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hubtek_Settings>
+	<!--  ***********Shipper********* -->
+	<Parameter id="sCustomerOID">55</Parameter>
+	<Parameter id="sHour">19</Parameter>
+	<!--  ***********Email********* -->
+	<Parameter id="sHost">outlook.office365.com</Parameter>
+	<Parameter id="sHost2">smtp.office365.com</Parameter>
+	<Parameter id="sPort">587</Parameter>
+	<Parameter id="sPortConnection">993</Parameter>
+	<Parameter id="sEmailTo">lauraarb@gohubtek.com, danielm@gohubtek.com, christianmo@gohubtek.com</Parameter>
+	<Parameter id="sEmailToCustomer">PodsOps@gogli.net</Parameter>
+	<!--  ***********Logs********* -->
+	<Parameter id="sLogPath">C:\Users\Administrator\Documents\RPA_Hubtek\Bots\Gateway\Logs</Parameter>
+	<Parameter id="sLogError">C:\Users\Administrator\Documents\RPA_Hubtek\Bots\Gateway\Logs</Parameter>
+	<!--  ***********Ruta Excel********* -->
+	<Parameter id="sExcelPath">https://docs.google.com/spreadsheets/d/1gwIMxv-g_ATRx9KGSmWDDaHkHUTAguQ4ieDIe8N43xY/edit#gid=1748473654</Parameter>
+	<!--  ***********PODS********* -->
+	<Parameter id="sPODSURL">https://pods.tmwcloud.com/WebApp/Login/Login.aspx</Parameter>
+	<!--  ***********DBSettings********* -->
+	<Parameter id="sDbServer">htrpadev.c1uh04xzt3mc.us-east-2.rds.amazonaws.com</Parameter>
+	<!--  *********** TransactionalTable ********* -->
+	<Parameter id="sDBRPA">RPA_Hubtek</Parameter>
+	<Parameter id="sTableMain">dbo.TABi00116_Gateway_Quoting</Parameter>
+	<!--  *********** Environment ********* -->	
+	<Parameter id="sEnvironment">True</Parameter>
+	<!--  *********** Values ********* -->	
+	<Parameter id="sSubstractValue">25</Parameter>
+	<Parameter id="sFuelAmount">0.00</Parameter>
+	<Parameter id="sOtherAmount">0.00</Parameter>
+	<!--  *********** Retry Login ********* -->	
+	<Parameter id="sRetry">2</Parameter>
+	<!--  *********** Template ********* -->	
+	<Parameter id="sTemplate">C:\Users\Administrator\Documents\RPA_Hubtek\Bots\Gateway\Documents\TemplateReport.xlsx</Parameter>
+	<!--  *********** Report File ********* -->	
+	<Parameter id="sReportPath">C:\Users\Administrator\Documents\RPA_Hubtek\Bots\Gateway\Reports\</Parameter>
+	<Parameter id="sNameReport">Weekly_Report_Fecha.xlsx</Parameter>
+	<Parameter id="sCapturesPath">C:\Users\Administrator\Documents\RPA_Hubtek\Bots\Gateway\Captures\</Parameter>
+</Hubtek_Settings>
